@@ -72,4 +72,11 @@ class Board:
         return None
 
     # Method to get valid moves for a given piece
+    def get_valid_moves(self, piece):
+        pass
 
+    def _traverse_left(self, start, stop, step, color, left, skipped=[]):
+        pass
+
+    def _traverse_right(self, start, stop, step, color, right, skipped=[]):
+        pass
