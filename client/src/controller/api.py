@@ -2,11 +2,11 @@ import requests
 from config.conf import HOST_API
 from config.constants import WOOD, WHITE
 
-class GameAPI:
-    def __init__():
+class GameAPI():
+    def __init__(self):
         pass
 
-    def get_turn(self, turn):
+    def change_turn(self, turn):
         try:
             response = requests.get(HOST_API + '/game/change_turn?turn=' + str(turn))
             response = response.json()

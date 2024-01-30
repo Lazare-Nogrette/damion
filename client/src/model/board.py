@@ -88,9 +88,9 @@ class Board:
         row = piece.row
 
         # Check possible moves for red pieces
-        if piece.color == RED:
-            moves.update(self._traverse_left(row - 1, max(row - 3, -1), -1, RED, left))
-            moves.update(self._traverse_right(row - 1, max(row - 3, -1), -1, RED, right))
+        if piece.color == WOOD:
+            moves.update(self._traverse_left(row - 1, max(row - 3, -1), -1, WOOD, left))
+            moves.update(self._traverse_right(row - 1, max(row - 3, -1), -1, WOOD, right))
 
         # Check possible moves for white pieces
         if piece.color == WHITE:
