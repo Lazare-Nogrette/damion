@@ -1,7 +1,7 @@
 # Fichier: serveur.py
-from src.config import app
-from src.controller import api
-from src.config.conf import PORT
+from config import app
+from controller import api
+from config.conf import PORT
 
 
 if __name__ == '__main__':

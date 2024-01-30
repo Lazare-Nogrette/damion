@@ -1,7 +1,7 @@
 import pygame
-from ..config.constants import WOOD, WHITE, BLUE, SQUARE_SIZE
-from .board import Board
-from ..controller import GameAPI
+from config.constants import WOOD, WHITE, BLUE, SQUARE_SIZE
+from model.board import Board
+from controller.api import GameAPI
 
 
 class Game:

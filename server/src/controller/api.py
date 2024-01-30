@@ -1,7 +1,7 @@
 # controller/api.py
 from flask import jsonify, request
-from src.config import app
-from src.model.game import Game
+from config import app
+from model.game import Game
 
 game = Game()
 

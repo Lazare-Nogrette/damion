@@ -1,4 +1,4 @@
-from ..config.constants import WOOD, WHITE, SQUARE_SIZE, GREY, CROWN
+from config.constants import WOOD, WHITE, SQUARE_SIZE, GREY, CROWN
 import pygame
 
 

@@ -1,4 +1,4 @@
-from ..config.constants import WOOD, WHITE, BLUE, SQUARE_SIZE
+from config.constants import WOOD, WHITE, BLUE, SQUARE_SIZE
 from .board import Board
 
 class Game:
