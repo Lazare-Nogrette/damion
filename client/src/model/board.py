@@ -59,7 +59,15 @@ class Board:
                     piece.draw(win)
 
     def remove(self, pieces):
-        pass
+        for piece in pieces:
+                    # print(f'Piece Detail: {piece.__dict__}')
+                    self.board[piece.row][piece.col] = 0
+                    is_piece_removed = self.game_api.remove_piece({
+                        'color': str(piece.color)
+                    })
+                    if (is_piece_removed):
+                        self.red_left = is_piece_removed['red_left']
+                        self.white_left = is_piece_removed['white_left']
 
         # print(f'Available Pieces to remove: {pieces}')
 
